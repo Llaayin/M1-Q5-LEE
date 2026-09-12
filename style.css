@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#info {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 8px 16px;
+    border-radius: 20px;
+    pointer-events: none;
+    font-size: 14px;
+    backdrop-filter: blur(4px);
+}
